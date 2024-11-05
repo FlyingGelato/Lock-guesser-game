@@ -1,0 +1,101 @@
+/* style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+#main-container {
+    display: flex;
+    gap: 20px;
+}
+
+#game-container {
+    text-align: center;
+    background-color: #3b3b3b;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#game-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ccc;
+}
+
+#start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#rules-text {
+    font-size: 20px; /* Adjust the size as needed */
+    line-height: 1.5; /* Optional: increases spacing between lines */
+}
+
+.attempt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Color indicators */
+.red { background-color: red; }
+.green { background-color: green; }
+.yellow { background-color: yellow; }
+
+#check-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* styles.css */
+
+/* General styling for the input boxes */
+.input-box {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 5px;
+    font-weight: bold;
+    color: black;  /* Ensure text is always black */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Hint colors */
+.green {
+    background-color: green;
+    color: black;  /* Keep text color black */
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;  /* Keep text color black */
+}
+
+.red {
+    background-color: red;
+    color: black;  /* Keep text color black */
+}

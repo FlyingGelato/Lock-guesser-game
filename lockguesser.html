@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="C:\Users\djilali\Desktop\TP1\src\lockguesser\styles.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="game-rules">
+            <button id="start-button" onclick="startGame()">Start Game</button>
+            <p id="rules-text">
+                Guess the 5-number code in 5 tries. <br>
+                Colors indicate:<br>
+                <span class="green">Green:</span> Correct number & place<br> 
+                <span class="yellow">Yellow:</span> Correct number, wrong place<br>
+                <span class="red">Red:</span> Not in the code<br>
+            </p>
+        </div>
+        <div id="game-container">
+            <h1>Guess the Code</h1>
+            <div id="attempts-container"></div>
+            <button id="check-button" onclick="checkAttempt()" style="display: none;">Check</button>
+        </div>
+    </div>
+    <script src="C:\Users\djilali\Desktop\TP1\src\lockguesser\script.js"></script>
+</body>
+</html>
